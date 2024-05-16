@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en línea</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Duoc Eats</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Tiendas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link snipcart-checkout">Carrito</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="producto">
+                    <img class="producto-imagen" src="imagenes/Re_3.jpg" alt="Imagen del producto">
+                    <div class="producto-info">
+                        <h4 class="producto-titulo">AK-47</h4>
+                        <p class="producto-descripcion">
+                            Precio:<br>
+                            $6.000
+                        </p>
+                        <button type="button" class="producto-boton-comprar btn btn-primary buy-botton snipcart-add-item"
+                        data-item-id="1"
+                        data-item-price="6000"
+                        data-item-image="imagenes/Re_3.jpg"
+                        data-item-name="AK-47"
+                        >Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Aquí puedes agregar más productos -->
+            <div class="col-md-4">
+                <div class="producto">
+                    <img class="producto-imagen" src="imagenes/Re_1.jpg" alt="Imagen del producto">
+                    <div class="producto-info">
+                        <h4 class="producto-titulo">Critical Cheese</h4>
+                        <p class="producto-descripcion">
+                            Precio:<br>
+                            $7.000
+                        </p>
+                        <button type="button" class="producto-boton-comprar btn btn-primary buy-botton snipcart-add-item"
+                        data-item-id="2"
+                        data-item-price="7000"
+                        data-item-image="imagenes/Re_1.jpg"
+                        data-item-name="Critical Cheese"
+                        >Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="producto">
+                    <img class="producto-imagen" src="imagenes/Re_2.jpg" alt="Imagen del producto">
+                    <div class="producto-info">
+                        <h4 class="producto-titulo">Friends</h4>
+                        <p class="producto-descripcion">
+                            Precio:<br>
+                            $5.500
+                        </p>
+                        <button type="button" class="producto-boton-comprar btn btn-primary buy-botton snipcart-add-item"
+                        data-item-id="3"
+                        data-item-price="5500"
+                        data-item-image="imagenes/Re_2.jpg"
+                        data-item-name="Friends"
+                        >Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Información de contacto</h5>
+                    <p>Dirección: 123 Calle Principal, Ciudad, País</p>
+                    <p>Email: info@mitienda.com</p>
+                    <p>Teléfono: +1234567890</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Enlaces útiles</h5>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js" data-lang="es"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
